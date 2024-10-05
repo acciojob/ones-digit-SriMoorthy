@@ -1,7 +1,7 @@
 function onesDigit(n) {
   // your code here
 	let N = n.toString()
-	return N[N.length-1]
+	return parseInt(N[N.length-1])
 	
 }
 
